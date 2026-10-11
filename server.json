@@ -3,7 +3,7 @@
   "name": "eu.dhsdigital/testez-votre-tracking",
   "title": "Testez votre tracking",
   "description": "Free website tracking audit, no account needed: GTM, GA4, Meta Pixel, Consent Mode v2, server-side",
-  "version": "1.9.22",
+  "version": "1.9.23",
   "websiteUrl": "https://dhsdigital.eu/tracking/assistants-ia/",
   "repository": {
     "url": "https://github.com/dhsdigital/testez-votre-tracking",
