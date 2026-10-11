@@ -1,0 +1,103 @@
+{
+  "statut": "ok",
+  "site": "www.lefourgon.com",
+  "score": 94,
+  "note": "Excellent",
+  "message": "Les fondations visibles de votre tracking sont solides : peu de risques de pertes repérés.",
+  "rapport_complet": "https://dhsdigital.eu/tracking/?site=www.lefourgon.com&utm_source=github&utm_medium=referral",
+  "analyse_le": "2026-10-11T10:05:00+00:00",
+  "points_a_corriger": [
+    {
+      "titre": "Cookies limités à 7 jours sur Safari (risque)",
+      "perte": "Safari peut oublier vos clients au bout de 7 jours",
+      "constat": "emma.lefourgon.com (34.111.244.243) n’est pas hébergé sur la même plage d’adresses IP que votre site (104.26.11.29) : Safari peut ramener à 7 jours les cookies posés par ce serveur, ce qui coupe l’attribution des parcours longs.",
+      "gravite": "à surveiller",
+      "etape": "l’optimisation",
+      "risque": "Sur iPhone ou Mac, un achat après une semaine peut perdre son lien avec la publicité d’origine.",
+      "correctif": "Servez la collecte depuis la même infrastructure que le site (chemin dédié sur le domaine principal, ou proxy via votre CDN).",
+      "gain_points": 2
+    }
+  ],
+  "ordre_actions": [
+    {
+      "etape": "l’optimisation",
+      "points": [
+        "Safari peut oublier vos clients au bout de 7 jours"
+      ]
+    }
+  ],
+  "par_ou_commencer": "",
+  "deja_en_place": [
+    {
+      "titre": "Google Tag Manager en place",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Aucun doublon apparent",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Balises centralisées",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Google Analytics 4 en place",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Plateformes publicitaires mesurées",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Bannière de consentement (CMP) en place",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Consent Mode v2 configuré",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "GTM servi depuis votre domaine",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Tracking server-side actif",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    },
+    {
+      "titre": "Collecte sur votre domaine",
+      "detail": "",
+      "preuve": "configuration visible sur la page, déclenchement non vérifié"
+    }
+  ],
+  "non_verifiable": [
+    {
+      "titre": "Données utilisateur : non vérifiable",
+      "detail": "Google Ads et Meta ne sont pas visibles côté navigateur : les données utilisateur (email, téléphone hachés) sont peut-être ajoutées par votre serveur."
+    }
+  ],
+  "sites_lies": [
+    {
+      "site": "clic.lefourgon.com",
+      "boutique": false,
+      "analyse": false,
+      "rapport": "https://dhsdigital.eu/tracking/?site=clic.lefourgon.com&utm_source=github&utm_medium=referral"
+    }
+  ],
+  "limites": [],
+  "source": "Testez votre tracking — DHS Digital (https://dhsdigital.eu/tracking/)",
+  "autres_points": [],
+  "confiance": {
+    "niveau": "Élevée",
+    "raisons": []
+  }
+}
