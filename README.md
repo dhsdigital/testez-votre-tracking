@@ -3,7 +3,7 @@
 > **En français** : audit de tracking gratuit d'un site à partir de son adresse publique, sans compte, sans clé et sans
 > extension : Google Tag Manager, GA4, Google Ads, pixel Meta, TikTok, bannière cookies, Consent Mode v2 et tracking
 > server-side (Stape, Addingwell…). Score sur 100 et correctifs en français. Sur le web : https://dhsdigital.eu/tracking/ ·
-> dans Claude, ChatGPT, Codex ou Le Chat : https://dhsdigital.eu/tracking/assistants-ia/ · [détails en français](#en-français).
+> dans Claude, ChatGPT, Codex ou Le Chat : https://dhsdigital.eu/tracking/assistants-ia/ · méthode : [audit de tracking gratuit](https://daniloduchesnes.com/blog/audit-tracking-gratuit/) · [détails en français](#en-français).
 
 
 **Free, read-only audit of a website's marketing tracking from its public URL. No account, no OAuth, no API key, no
@@ -121,6 +121,8 @@ correctifs par ordre d'importance, ce qui est déjà en place et ce qui ne se v�
 - Dans Claude, ChatGPT, Codex, Cursor ou Le Chat : connecteur MCP `https://dhsdigital.eu/wp-json/dhs-audit/v1/mcp`
   (aucune authentification), mode d'emploi : https://dhsdigital.eu/tracking/assistants-ia/
 - Rapport texte : `https://dhsdigital.eu/wp-json/dhs-audit/v1/rapport?site=votre-site.fr`
+- Méthode complète, pas à pas : [audit de tracking gratuit en 4 étapes](https://daniloduchesnes.com/blog/audit-tracking-gratuit/) ·
+  comparatif honnête des outils : [quel outil gratuit pour auditer votre tracking ?](https://dhsdigital.eu/tracking/outils-gratuits/)
 - Pages dédiées : [Consent Mode v2](https://dhsdigital.eu/tracking/consent-mode-v2/) ·
   [tracking server-side](https://dhsdigital.eu/tracking/server-side/) · [Shopify](https://dhsdigital.eu/tracking/shopify/)
 
