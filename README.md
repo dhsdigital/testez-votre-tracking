@@ -1,4 +1,10 @@
-# Testez votre tracking: free website tracking checker and MCP server
+# Testez votre tracking : audit de tracking gratuit (free website tracking checker and MCP server)
+
+> **En français** : audit de tracking gratuit d'un site à partir de son adresse publique, sans compte, sans clé et sans
+> extension : Google Tag Manager, GA4, Google Ads, pixel Meta, TikTok, bannière cookies, Consent Mode v2 et tracking
+> server-side (Stape, Addingwell…). Score sur 100 et correctifs en français. Sur le web : https://dhsdigital.eu/tracking/ ·
+> dans Claude, ChatGPT, Codex ou Le Chat : https://dhsdigital.eu/tracking/assistants-ia/ · [détails en français](#en-français).
+
 
 **Free, read-only audit of a website's marketing tracking from its public URL. No account, no OAuth, no API key, no
 browser extension.** It checks Google Tag Manager, GA4, Google Ads conversion tags, Meta Pixel, TikTok, Pinterest,
