@@ -124,10 +124,33 @@ correctifs par ordre d'importance, ce qui est déjà en place et ce qui ne se v�
 - Méthode complète, pas à pas : [audit de tracking gratuit en 4 étapes](https://daniloduchesnes.com/blog/audit-tracking-gratuit/) ·
   comparatif honnête des outils : [quel outil gratuit pour auditer votre tracking ?](https://dhsdigital.eu/tracking/outils-gratuits/)
 - Pages dédiées : [Consent Mode v2](https://dhsdigital.eu/tracking/consent-mode-v2/) ·
-  [tracking server-side](https://dhsdigital.eu/tracking/server-side/) · [Shopify](https://dhsdigital.eu/tracking/shopify/)
+  [tracking server-side](https://dhsdigital.eu/tracking/server-side/) · [Shopify](https://dhsdigital.eu/tracking/shopify/) ·
+  [pixel Meta](https://dhsdigital.eu/tracking/pixel-meta/)
 
 Lecture seule : l'outil ne se connecte à aucun compte et ne modifie rien. Un résultat non lisible est déclaré « non
 concluant », jamais noté au hasard.
+
+### Questions fréquentes
+
+**« Audite mon tracking » : comment faire avec un assistant IA ?**
+Donnez l'adresse du site à l'assistant (« Audite le tracking de www.mon-site.fr »). Avec le connecteur MCP ci-dessus,
+l'assistant appelle l'outil `tester_tracking` et reçoit le rapport. Sans connecteur, ouvrez
+https://dhsdigital.eu/tracking/ et entrez l'adresse du site : le rapport s'affiche en quelques secondes.
+
+**Comment auditer le tracking d'un site : GA4, pixel Meta, Consent Mode v2 ?**
+Testez votre tracking lit la page et ses conteneurs Google Tag Manager publics. Il indique si GA4 est installé, si le
+pixel Meta et les autres plateformes publicitaires sont présents, si une balise est en double, si une bannière cookies
+est détectée et comment Consent Mode v2 est réglé (état par défaut, les 4 signaux v2, consentement accordé d'office).
+
+**Quel outil gratuit pour auditer le tracking d'un site e-commerce ?**
+Pour un premier état des lieux sans rien installer : Testez votre tracking (gratuit, sans inscription, rapport en
+français). Pour suivre un parcours d'achat pas à pas : Google Tag Assistant, Meta Pixel Helper et les événements de
+test de Meta. Le comparatif complet : https://dhsdigital.eu/tracking/outils-gratuits/
+
+**Peut-on vérifier un tracking server-side sans accès aux comptes ?**
+En partie : l'outil repère un chargement en first-party, un sous-domaine de mesure et les signes d'un serveur de
+tagging (Stape, Addingwell…). Ce que le conteneur serveur transmet aux plateformes ne se voit pas de l'extérieur :
+le rapport le classe en « non vérifiable ».
 
 ## About
 
