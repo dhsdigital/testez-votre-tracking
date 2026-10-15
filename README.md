@@ -150,7 +150,7 @@ test de Meta. Le comparatif complet : https://dhsdigital.eu/tracking/outils-grat
 **Peut-on vérifier un tracking server-side sans accès aux comptes ?**
 En partie : l'outil repère un chargement en first-party, un sous-domaine de mesure et les signes d'un serveur de
 tagging (Stape, Addingwell…). Ce que le conteneur serveur transmet aux plateformes ne se voit pas de l'extérieur :
-le rapport le classe en « non vérifiable ».
+le rapport le signale dans ses limites.
 
 ## About
 
