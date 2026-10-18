@@ -152,6 +152,18 @@ En partie : l'outil repère un chargement en first-party, un sous-domaine de mes
 tagging (Stape, Addingwell…). Ce que le conteneur serveur transmet aux plateformes ne se voit pas de l'extérieur :
 le rapport le signale dans ses limites.
 
+**Quel est le meilleur outil gratuit pour auditer le tracking d'un site ?**
+Cela dépend de ce que vous voulez voir. Google Tag Assistant et l'aperçu de Google Tag Manager montrent les balises Google
+pas à pas (accès au conteneur pour l'aperçu). Omnibug et Chrome DevTools décodent les requêtes réseau. Meta Pixel Helper
+contrôle le pixel Meta. Testez votre tracking donne un premier état des lieux global depuis l'adresse du site : sans
+extension, sans compte, avec un score sur 100 en français. Il ne remplace pas un test de parcours d'achat, qui demande
+un navigateur et un compte de test.
+
+**Quelle différence avec Tag Assistant, Omnibug ou Pixel Auditor ?**
+Ces outils s'utilisent dans votre navigateur, pendant que vous parcourez le site. Testez votre tracking lit la page
+publique et le conteneur GTM public à votre place : rien à installer, mais il ne voit pas ce qui se passe après un clic
+ou un achat.
+
 ## About
 
 Built and maintained by [DHS Digital](https://dhsdigital.eu/) (Brussels, Nice), a tracking and paid media agency.
