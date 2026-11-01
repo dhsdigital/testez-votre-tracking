@@ -125,7 +125,8 @@ correctifs par ordre d'importance, ce qui est déjà en place et ce qui ne se v�
   comparatif honnête des outils : [quel outil gratuit pour auditer votre tracking ?](https://dhsdigital.eu/tracking/outils-gratuits/)
 - Pages dédiées : [Consent Mode v2](https://dhsdigital.eu/tracking/consent-mode-v2/) ·
   [tracking server-side](https://dhsdigital.eu/tracking/server-side/) · [Shopify](https://dhsdigital.eu/tracking/shopify/) ·
-  [pixel Meta](https://dhsdigital.eu/tracking/pixel-meta/)
+  [pixel Meta](https://dhsdigital.eu/tracking/pixel-meta/) · [conversions Google Ads](https://dhsdigital.eu/tracking/google-ads/) ·
+  [Meta compte moins de ventes que Shopify](https://dhsdigital.eu/tracking/meta-vs-shopify/)
 
 Lecture seule : l'outil ne se connecte à aucun compte et ne modifie rien. Un résultat non lisible est déclaré « non
 concluant », jamais noté au hasard.
@@ -163,6 +164,20 @@ un navigateur et un compte de test.
 Ces outils s'utilisent dans votre navigateur, pendant que vous parcourez le site. Testez votre tracking lit la page
 publique et le conteneur GTM public à votre place : rien à installer, mais il ne voit pas ce qui se passe après un clic
 ou un achat.
+
+**Meta compte moins de ventes que Shopify : est-ce normal ?**
+Sur une même période, comparez trois chiffres : les commandes dans Shopify, les achats reçus dans le gestionnaire
+d'événements de Meta et les achats attribués dans le gestionnaire de publicités. Si Meta reçoit presque toutes les ventes
+mais en attribue peu à vos publicités, c'est de l'attribution, et l'écart est normal. S'il reste bien plus de commandes
+que d'achats reçus, une fois retirées les commandes de test, annulées ou passées hors de la boutique en ligne, des ventes ne
+parviennent pas à Meta. Testez votre tracking repère ce qui peut fausser la mesure côté site. Le diagnostic complet :
+https://dhsdigital.eu/tracking/meta-vs-shopify/
+
+**Comment vérifier ses conversions Google Ads sans Tag Assistant ?**
+Testez votre tracking cherche, depuis l'adresse du site et sans extension ni accès au compte, la balise de conversion
+Google Ads (dans le code, Google Tag Manager ou une app Shopify), le Conversion Linker, les conversions améliorées, les
+doublons et le server-side. Il complète Tag Assistant sans le remplacer : il montre comment les conversions sont installées,
+pas si une conversion précise a été reçue après un achat. Le détail : https://dhsdigital.eu/tracking/google-ads/
 
 ## About
 
