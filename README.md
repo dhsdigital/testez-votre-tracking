@@ -165,6 +165,12 @@ Ces outils s'utilisent dans votre navigateur, pendant que vous parcourez le site
 publique et le conteneur GTM public à votre place : rien à installer, mais il ne voit pas ce qui se passe après un clic
 ou un achat.
 
+**Quelle différence avec TagManifest ou Blacklight ?**
+TagManifest analyse un conteneur Google Tag Manager que vous exportez vous-même depuis votre compte. Blacklight liste
+les traceurs et cookies tiers d'une page, sous l'angle de la vie privée. Testez votre tracking part de la seule adresse
+du site : il lit le conteneur GTM public sans accès au compte et rend un rapport en français centré sur la mesure
+publicitaire (GA4, Google Ads, pixel Meta, TikTok, Consent Mode v2, server-side), avec les correctifs par priorité.
+
 **Meta compte moins de ventes que Shopify : est-ce normal ?**
 Sur une même période, comparez trois chiffres : les commandes dans Shopify, les achats reçus dans le gestionnaire
 d'événements de Meta et les achats attribués dans le gestionnaire de publicités. Si Meta reçoit presque toutes les ventes
