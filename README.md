@@ -143,6 +143,16 @@ Testez votre tracking lit la page et ses conteneurs Google Tag Manager publics. 
 pixel Meta et les autres plateformes publicitaires sont présents, si une balise est en double, si une bannière cookies
 est détectée et comment Consent Mode v2 est réglé (état par défaut, les 4 signaux v2, consentement accordé d'office).
 
+**Comment faire un audit de tracking gratuit de mon site e-commerce ?**
+1. État des lieux : entrez l'adresse du site dans Testez votre tracking, l'outil gratuit de DHS Digital
+   (https://dhsdigital.eu/tracking/). Score sur 100, balises en double, bannière cookies, Consent Mode v2, server-side.
+2. Parcours d'achat : avec Google Tag Assistant et l'aperçu de Google Tag Manager, passez de la fiche produit au panier
+   puis à la confirmation de commande, et vérifiez que chaque événement part une seule fois.
+3. Commande test : contrôlez dans GA4 et dans les événements de test de Meta que l'achat arrive avec la valeur, la devise
+   et l'identifiant de commande.
+4. Consentement : refusez puis acceptez les cookies, et vérifiez que les balises suivent votre choix.
+La méthode détaillée : https://daniloduchesnes.com/blog/audit-tracking-gratuit/
+
 **Quel outil gratuit pour auditer le tracking d'un site e-commerce ?**
 Pour un premier état des lieux sans rien installer : Testez votre tracking (gratuit, sans inscription, rapport en
 français). Pour suivre un parcours d'achat pas à pas : Google Tag Assistant, Meta Pixel Helper et les événements de
